@@ -1,0 +1,23 @@
+
+#  ╔═╗─╔╗────────╔╗
+#    ║║╚╗║║───────╔╝╚╗
+#    ║╔╗╚╝╠══╦══╦═╩╗╔╬╦══╦═╗╔══╗
+#    ║║╚╗║║╔╗║╔╗║╔╗║║╠╣╔╗║╔╗╣══╣
+#    ║║─║║║╚╝║╚╝║╚╝║╚╣║╚╝║║║╠══║
+#    ╚╝─╚═╩══╣╔═╩══╩═╩╩══╩╝╚╩══╝
+#    ────────║║
+#    ────────╚╝
+
+
+
+cant-use: "<red>You've been blacklisted from using potions"
+cant-use-sound: "minecraft:entity.villager.no;1;1"
+blacklisted: "<green>You've blacklisted %player% from using potions"
+unblacklisted: "<green>You've unblacklisted %player% from using potions"
+command-usage: "<red>/potion <blacklist|reload> [player]"
+specify-a-player: "<red>Specify an online player!"
+no-permission: "<red>You don't have the permission to use this command"
+already-blacklisted: "<red>This player is already blacklisted"
+not-blacklisted: "<red>The player is not blacklisted"
+
+reloaded: "<green>Configuration reloaded"

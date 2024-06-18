@@ -1,0 +1,12 @@
+name: NoPotion
+version: '${version}'
+main: dev.endxxr.nopotion.NoPotion
+api-version: '1.19'
+commands:
+  potion:
+    description: Manage potion blacklist
+    usage: /potion <blacklist|unblacklist|reload> [player]
+    permission: nopotion.manage
+    aliases:
+    - potions
+    - np
