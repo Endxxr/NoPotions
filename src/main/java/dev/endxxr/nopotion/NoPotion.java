@@ -71,6 +71,11 @@ public final class NoPotion extends JavaPlugin {
 
     }
 
+    /**
+     *
+     * The purpose of this method is to convert UUID to string in order to save them in a List and then save in the blacklisted.yml file.
+     *
+     */
     private void addPlayersFromConfig() {
         blacklistedPlayers = new HashSet<>();
         List<String> uuidStringList = blackListedFile.getStringList("blacklisted");

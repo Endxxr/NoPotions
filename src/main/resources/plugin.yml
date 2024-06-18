@@ -6,7 +6,7 @@ commands:
   potion:
     description: Manage potion blacklist
     usage: /potion <blacklist|unblacklist|reload> [player]
-    permission: nopotion.manage
+    permission: nopotion.blacklist
     aliases:
     - potions
     - np

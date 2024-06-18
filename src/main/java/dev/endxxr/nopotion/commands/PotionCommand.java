@@ -18,7 +18,7 @@ public class PotionCommand extends CommandHandler {
     public Set<SubCommand> getSubCommands() {
         return Set.of(
                 new BlacklistCommand(instance, "blacklist", "nopotion.blacklist", true),
-                new UnblacklistCommand(instance, "unblacklist", "nopotion.unblacklist", true),
+                new UnblacklistCommand(instance, "unblacklist", "nopotion.blacklist", true),
                 new ReloadSubCommand(instance, "reload", "nopotion.reload", true)
         );
 
